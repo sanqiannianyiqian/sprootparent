@@ -11,7 +11,9 @@ import org.springframework.web.bind.annotation.RequestParam;
  * 可以通过注解形式实现底层代码封装
  * 不需要手动编写http请求代码不用写restTemplate
  * 配合Springmvc的注解实现
+ * d
  */
+//这个微服务去掉用其他微服务
 @FeignClient("service-hi")//表示该接口交给feign组件
 //实现底层逻辑，并且该接口的实现类中，所有方法都需要
 //访问service-hi这个服务

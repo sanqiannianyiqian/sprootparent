@@ -8,6 +8,7 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableFeignClients//进程将会以feign客户端启动
+//测试git
 public class StarterFeign {
     public static void main(String[] args) {
         SpringApplication.run(StarterFeign.class,args);
